@@ -79,14 +79,6 @@ Every analysis step is paired with written evidence backed by numbers. Null resu
 4. Ensure the CSV path in the data-loading cell points to your cleaned dataset file.
 5. Run Kernel → Restart & Run All.
 
-📁 Repository Structure
-
-├── data/
-│   └── cleaned_city_day_air_quality.csv   # cleaned and processed dataset
-├── notebooks/
-│   └── Air Quality Across India & AQI Analytics Dashboard.ipynb  # full analysis notebook
-├── README.md
-
 
 ## 🛠️ Tech Stack & Libraries
 * **Language:** Python
@@ -97,14 +89,12 @@ Every analysis step is paired with written evidence backed by numbers. Null resu
 
 ## 📂 Repository Structure
 ```text
-├── Raw Data/
-├── Data Cleaning/                           # Raw and cleaned datasets (e.g., cleaned_city_day_air_quality.csv)
-├── notebooks/                            # Jupyter notebooks containing the analytics and dashboard pipeline
+
+├── notebooks/
+│   └── Air Quality Across India & AQI Analytics Dashboard.ipynb  # full analysis notebook  # Jupyter notebooks containing the analytics and dashboard pipeline
+├── README.md
+├── Raw Data/         # Raw datasets
+├── Data Cleaning/                     # cleaned and processed dataset 
+    └── cleaned_city_day_air_quality.csv                       
 
 ---
-
-✏️ Author
-
-SREE SIDHI
-├── README.md                             # Project documentation
-└── requirements.txt                      # Python dependencies
